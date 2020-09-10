@@ -9,7 +9,7 @@ for i in range(stairs):
         continue
     elif i == 1:
         mxs[1] = st[0]+st[1]
-        continue
+        continue 
     elif i == 2:
         mxs[2] = max(st[0], st[1]) + st[2]
         continue
